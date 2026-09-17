@@ -1,0 +1,125 @@
+[
+  {
+    "slug": "iya-valley",
+    "title": "Iya-vallei: lianenbruggen en verborgen gehuchten",
+    "duration": "Hele dag (9–10 uur)",
+    "price": "¥55.000 per groep",
+    "groupSize": "1–6 personen",
+    "difficulty": "Matig wandelen, wat trappen",
+    "includes": [
+      "Privégids in het Engels of Nederlands",
+      "Vervoer in mijn auto vanaf Tokushima of Oboke",
+      "Toegang tot de lianenbrug",
+      "Thermos thee en een eenvoudige picknick als we restaurants overslaan"
+    ],
+    "excludes": [
+      "Lunch (we stoppen lokaal; reken op ¥1.500–2.500)",
+      "Ophalen bij hotels buiten Tokushima/Oboke (vraag na — vaak mogelijk)"
+    ],
+    "meetingPoint": "Station Tokushima of station Oboke",
+    "description": "De Iya-vallei is het Shikoku dat nog weggevouwen voelt: cederhellingen, een rivier diep beneden, dorpen die hun jongeren verloren en hun daken behielden. We steken een van de kazurabashi-lianenbruggen over, lopen door een stil gehucht, en nemen de weg die huurauto’s meestal missen. Dit is geen pretpark-Japan. Het is weer, houtlook, en genoeg lopen om de lunch te verdienen. Ik plan de bruggen vóór de tourbussen, en breng de middag door waar het dal weer stil wordt.",
+    "images": [
+      "https://images.unsplash.com/photo-1528164344705-47542687000d?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1480796927426-f609979314bd?auto=format&fit=crop&w=1600&q=80"
+    ]
+  },
+  {
+    "slug": "pilgrimage-day",
+    "title": "Een dag op het 88-tempelpad",
+    "duration": "Hele dag (8–9 uur)",
+    "price": "¥48.000 per groep",
+    "groupSize": "1–6 personen",
+    "difficulty": "Licht tot matig; tempeltrappen",
+    "includes": [
+      "Privégids in het Engels of Nederlands",
+      "Vervoer tussen tempels",
+      "Hulp met nōkyōchō-stempels als je een boek meeneemt",
+      "Context over Kōbō Daishi en hoe hedendaagse henro écht lopen"
+    ],
+    "excludes": [
+      "Stempelkosten (enkele honderden yen per tempel)",
+      "Osamefuda en andere offers",
+      "Lunch"
+    ],
+    "meetingPoint": "Station Tokushima, of je verblijf op het oostelijke circuit",
+    "description": "Je hoeft geen 1.200 kilometer te lopen om de Shikoku-pelgrimage te begrijpen. Eén goed gekozen dag — drie of vier tempels, een stuk echt pad, een kom iets warms — is genoeg om te voelen waarom mensen dit nog doen. Ik kies een traject dat bij je benen past: zachtere tempelclusters bij Tokushima, of een heuvelachtig paar als je stok en zweet wilt. We gaan als gasten, niet als verzamelaars. Ik laat zien hoe je buigt, wanneer je stil bent, en waar de automaatkoffie als beloning smaakt.",
+    "images": [
+      "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?auto=format&fit=crop&w=1600&q=80"
+    ]
+  },
+  {
+    "slug": "inland-sea",
+    "title": "Seto-binnenzee: kust, citrus, trage ferries",
+    "duration": "Hele dag (9 uur)",
+    "price": "¥58.000 per groep",
+    "groupSize": "1–6 personen",
+    "difficulty": "Licht wandelen",
+    "includes": [
+      "Privégids in het Engels of Nederlands",
+      "Auto- en ferrykosten voor de geplande route",
+      "Tijd in een vissersstadje en een uitkijk over het water"
+    ],
+    "excludes": [
+      "Museumtickets op de kunsteilanden als we Naoshima/Teshima toevoegen (apart)",
+      "Lunch en caféstops"
+    ],
+    "meetingPoint": "Station Takamatsu of station Tokushima",
+    "description": "De Binnenzee is het andere gezicht van Shikoku: olijfgaarden, roestige scheepswerven, eilanden die zwemmen-dichtbij lijken. We volgen het water, geen museumlijst. Afhankelijk van ferries en jouw smaak rijgen we een visserhaven, een citrusgaard en een kuststrook waar de Seto-bruggen in de hei hangen. Wil je specifiek de kunsteilanden, zeg dat in je bericht — dat wordt een andere, ticketdag. Anders blijven we bij zoute lucht, udon, en de onmodieuze stadjes die ik prefereer.",
+    "images": [
+      "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80"
+    ]
+  },
+  {
+    "slug": "oboke-gorge",
+    "title": "Oboke-kloof en de Yoshino-rivier",
+    "duration": "Hele dag (8 uur)",
+    "price": "¥52.000 per groep",
+    "groupSize": "1–6 personen",
+    "difficulty": "Licht; optioneel kort bootje",
+    "includes": [
+      "Privégids in het Engels of Nederlands",
+      "Vervoer vanaf Tokushima of Oboke",
+      "Rondje langs de kloofuitkijkpunten"
+    ],
+    "excludes": [
+      "Ticket voor het plezierbootje als we het nemen (meestal onder ¥2.000 pp)",
+      "Lunch"
+    ],
+    "meetingPoint": "Station Tokushima of station Oboke",
+    "description": "Oboke en Koboke snijden een groene, bijna alpine kloof door het hart van het eiland. In de hoge zomer is de rivier een raftingtoneel; op een doordeweekse dag in het tussenseizoen is het vooral water, rots en een treintje van twee wagons. We lopen de uitkijkpunten, nemen het bootje als het water kalm is, en eten ergens onopvallend en goed. Combineer dit met Iya als je twee dagen hebt — ze liggen naast elkaar op de kaart en in je hoofd.",
+    "images": [
+      "https://images.unsplash.com/photo-1432405975290-d1c025818163?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1600&q=80"
+    ]
+  },
+  {
+    "slug": "custom-day",
+    "title": "Een dag om jou heen gebouwd",
+    "duration": "Halve of hele dag",
+    "price": "Vanaf ¥38.000 (halve dag) / ¥55.000 (hele dag)",
+    "groupSize": "1–6 personen",
+    "difficulty": "Vooraf afgesproken",
+    "includes": [
+      "Planning per e-mail voor je aankomst",
+      "Privégids in het Engels of Nederlands",
+      "Vervoer voor de afgesproken route"
+    ],
+    "excludes": [
+      "Entreegeld, ferries en maaltijden tenzij we anders afspreken",
+      "Meerdaagse reizen (mogelijk — vraag na)"
+    ],
+    "meetingPoint": "Afgesproken bij het plannen",
+    "description": "Gezinnen met een trage loper. Fotografen die dageraad in de heuvels willen. Mensen die Naoshima al deden en nu een boerderij, een sakebrouwerij, of niets van internet willen. Schrijf en noem de beperkingen. Ik stel een route, een verzamelpunt en een eerlijke prijs voor. Maatwerkdagen raken sneller vol in kersenbloesem en herfstkleur — kijk eerst naar de kalender.",
+    "images": [
+      "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=80"
+    ]
+  }
+]

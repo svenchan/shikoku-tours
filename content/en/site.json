@@ -1,0 +1,183 @@
+{
+  "brand": "Shikoku Walks",
+  "guideName": "Sven",
+  "tagline": "Private days on Japan’s quiet island.",
+  "home": {
+    "heroKicker": "Independent guide · Tokushima",
+    "heroTitle": "Walk Shikoku with someone who lives here.",
+    "heroLead": "Small private tours through Iya Valley, pilgrimage trails, and the Seto Inland Sea — at a human pace, in English or Dutch.",
+    "heroPrimary": "Check availability",
+    "heroSecondary": "Browse tours",
+    "introTitle": "The island most visitors skip. That’s the point.",
+    "introBody": "Shikoku is still a place of farm roads, cedar forests, and temple bells. I take a handful of guests each week into the valleys and coastline I know well — no bus groups, no ticking checklist. We eat where locals eat, walk where the buses don’t go, and leave room for weather and curiosity.",
+    "featuredTitle": "Days I offer",
+    "featuredCta": "See all tours",
+    "availabilityTitle": "When I’m free",
+    "availabilityBody": "Green days are open for a private tour. Red days are already booked. Grey days are off — unlisted dates stay unavailable until I mark them open.",
+    "availabilityCta": "Open the calendar",
+    "reviewsTitle": "From people who came",
+    "reviewsCta": "Read more",
+    "aboutTitle": "A Dutch guide on a Japanese island",
+    "aboutBody": "I moved to Tokushima more than a decade ago. Shikoku is not a backdrop I learned from a guidebook; it’s where I buy vegetables, hike on my days off, and take my own visitors. If you want a polished megaphone tour, I’m not your person. If you want a thoughtful day with someone who can talk to the farmer and the priest, write to me.",
+    "aboutCta": "About Sven",
+    "finalTitle": "Tell me the days you have.",
+    "finalBody": "There is no checkout. Send a few sentences — who you are, what you hope to see, when you’re here — and I’ll reply by email.",
+    "finalCta": "Inquire"
+  },
+  "nav": {
+    "tours": "Tours",
+    "about": "About",
+    "availability": "Availability",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "footer": {
+    "blurb": "Private walking and driving tours across Shikoku. English and Dutch. No live booking — inquiries by email.",
+    "legal": "Legal",
+    "copyright": "Independent guiding in Shikoku."
+  },
+  "toursPage": {
+    "kicker": "Private tours",
+    "title": "Choose a day, not a package.",
+    "lead": "Each outing is for your group only. Prices are per group, not per person, unless noted. I adapt the route to fitness, weather, and what you actually want to see."
+  },
+  "tourDetail": {
+    "duration": "Duration",
+    "price": "Price",
+    "groupSize": "Group size",
+    "difficulty": "Difficulty",
+    "includes": "Included",
+    "excludes": "Not included",
+    "meetingPoint": "Meeting point",
+    "inquire": "Inquire about this tour",
+    "back": "All tours"
+  },
+  "aboutPage": {
+    "kicker": "The guide",
+    "title": "Sven — Shikoku, at walking speed.",
+    "lead": "I grew up in the Netherlands, live in Tokushima Prefecture, and spend most of my working days on mountain roads, temple paths, and the edges of the Inland Sea.",
+    "body": [
+      "Guests often ask how a Dutch person ended up guiding in Shikoku. The short version: I came for a season, stayed for the island, and slowly became the person friends asked to “just show us around.” That informal habit became this work.",
+      "I speak English and Dutch with guests, and Japanese with everyone we meet. That matters more than it sounds. A vineyard owner, a temple caretaker, a woman selling udon at a roadside stall — the day is better when we can actually talk.",
+      "I take private groups only. Four people is a sweet spot; six is the usual maximum. I drive, I walk, I pack a thermos. I do not run a call centre or a booking engine. If I’m already out with someone, that date is red on the calendar.",
+      "When I’m not guiding I am usually in the hills, at the market, or on a stool somewhere with a bowl of noodles. Shikoku rewards people who stay a little longer than the itinerary suggests. I try to build days that feel like that."
+    ]
+  },
+  "availabilityPage": {
+    "kicker": "Calendar",
+    "title": "Open days, plainly marked.",
+    "lead": "Green is available. Red is booked. Grey is unavailable. Dates I have not listed stay off. This is not a reservation system — if a day looks free, still send an inquiry so we can confirm.",
+    "legendAvailable": "Available",
+    "legendBooked": "Booked",
+    "legendUnavailable": "Unavailable",
+    "prev": "Previous month",
+    "next": "Next month",
+    "cta": "Those dates work — inquire",
+    "note": "I update this calendar by editing a JSON file in the site. If something looks stale, email me; I’ll correct it."
+  },
+  "galleryPage": {
+    "kicker": "Photographs",
+    "title": "The island, without the brochure smile.",
+    "lead": "Valleys, coasts, cedar, and the ordinary beauty of rural Shikoku. These are the kinds of places we actually go.",
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1528164344705-47542687000d?auto=format&fit=crop&w=1600&q=80",
+        "alt": "Temple garden moss and stone"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1600&q=80",
+        "alt": "Vermilion shrine gates"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?auto=format&fit=crop&w=1600&q=80",
+        "alt": "Wooden temple architecture"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=1600&q=80",
+        "alt": "Japanese street at dusk"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+        "alt": "Mountain ridgeline"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1432405975290-d1c025818163?auto=format&fit=crop&w=1600&q=80",
+        "alt": "River through a forested gorge"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=80",
+        "alt": "Sun through a forest canopy"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1600&q=80",
+        "alt": "Hills in changing weather"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1600&q=80",
+        "alt": "Traveller looking over a landscape"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=80",
+        "alt": "Sunlight on a mountain valley"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=80",
+        "alt": "Lake and mountains"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=1600&q=80",
+        "alt": "Lanterns along a quiet street"
+      }
+    ]
+  },
+  "reviewsPage": {
+    "kicker": "Guests",
+    "title": "What people say after the train home.",
+    "lead": "A handful of notes from travellers I have taken out. I don’t buy reviews."
+  },
+  "faqPage": {
+    "kicker": "Questions",
+    "title": "Practical things, answered once."
+  },
+  "contactPage": {
+    "kicker": "Inquire",
+    "title": "Write as if to a person. You are.",
+    "lead": "I read every message myself. Tell me roughly when you are on Shikoku, how many of you there are, and what kind of day you want. I’ll answer by email — usually within a day or two.",
+    "name": "Name",
+    "email": "Email",
+    "dates": "Preferred dates",
+    "datesPlaceholder": "e.g. 12–14 October 2026",
+    "people": "Number of people",
+    "tour": "Tour of interest",
+    "tourPlaceholder": "Not sure yet",
+    "message": "Message",
+    "messagePlaceholder": "Who’s coming, what you’d like to see, any limits on walking…",
+    "submit": "Send inquiry",
+    "sending": "Sending…",
+    "successTitle": "It’s with me.",
+    "successBody": "Thank you. I’ll reply to the email you gave. If you don’t hear back within a few days, check spam or write again.",
+    "error": "Something went wrong sending that. Please try again, or email me directly.",
+    "another": "Send another message"
+  },
+  "legalPage": {
+    "kicker": "Legal",
+    "title": "Privacy and terms",
+    "privacyTitle": "Privacy",
+    "privacy": [
+      "This site does not use a database or user accounts. The contact form sends your name, email, dates, group size, tour of interest, and message to me by email (via Resend). I use that information only to answer your inquiry and arrange a tour.",
+      "I do not sell your data. I do not run advertising pixels. Analytics, if enabled, is privacy-oriented traffic measurement from Vercel.",
+      "If you want a message deleted from my inbox after we’ve finished corresponding, email me and I will do so."
+    ],
+    "termsTitle": "Terms",
+    "terms": [
+      "Inquiries are not bookings. A date is confirmed only when I write back and we agree in email.",
+      "Prices on tour pages are indicative and in Japanese yen unless stated otherwise. Final price depends on group size, season, and route.",
+      "Tours may be adjusted or postponed for typhoons, landslides, or other safety reasons. I’ll discuss options with you if that happens.",
+      "You are responsible for your own travel insurance and for being fit enough for the day we plan."
+    ]
+  }
+}

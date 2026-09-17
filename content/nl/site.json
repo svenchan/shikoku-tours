@@ -1,0 +1,183 @@
+{
+  "brand": "Shikoku Walks",
+  "guideName": "Sven",
+  "tagline": "Privé-dagen op het stille eiland van Japan.",
+  "home": {
+    "heroKicker": "Zelfstandige gids · Tokushima",
+    "heroTitle": "Wandel over Shikoku met iemand die hier woont.",
+    "heroLead": "Kleine privé-tours door de Iya-vallei, pelgrimspaden en de Seto-binnenzee — in een menselijk tempo, in het Engels of Nederlands.",
+    "heroPrimary": "Bekijk beschikbaarheid",
+    "heroSecondary": "Bekijk tours",
+    "introTitle": "Het eiland dat de meeste bezoekers overslaan. Dat is juist de reden.",
+    "introBody": "Shikoku is nog een plek van boerderijwegen, cederbossen en tempelklokken. Ik neem een handvol gasten per week mee de dalen en de kust in die ik ken — geen busgroepen, geen afvinklijst. We eten waar locals eten, lopen waar de bus niet komt, en laten ruimte voor weer en nieuwsgierigheid.",
+    "featuredTitle": "Dagen die ik aanbied",
+    "featuredCta": "Alle tours",
+    "availabilityTitle": "Wanneer ik vrij ben",
+    "availabilityBody": "Groene dagen zijn open voor een privé-tour. Rode dagen zijn al vol. Grijze dagen zijn dicht — data die niet in het bestand staan blijven onbeschikbaar tot ik ze open zet.",
+    "availabilityCta": "Open de kalender",
+    "reviewsTitle": "Van mensen die kwamen",
+    "reviewsCta": "Lees meer",
+    "aboutTitle": "Een Nederlandse gids op een Japans eiland",
+    "aboutBody": "Ik verhuisde meer dan tien jaar geleden naar Tokushima. Shikoku is geen decor uit een reisgids; hier koop ik groente, wandel ik op vrije dagen, en neem ik mijn eigen bezoek mee. Wil je een gepolijste megafoon-tour, dan ben ik niet je persoon. Wil je een doordachte dag met iemand die met de boer én de priester kan praten, schrijf me.",
+    "aboutCta": "Over Sven",
+    "finalTitle": "Zeg me welke dagen je hebt.",
+    "finalBody": "Er is geen afrekenen. Stuur een paar zinnen — wie je bent, wat je hoopt te zien, wanneer je er bent — en ik antwoord per e-mail.",
+    "finalCta": "Informeer"
+  },
+  "nav": {
+    "tours": "Tours",
+    "about": "Over mij",
+    "availability": "Beschikbaarheid",
+    "gallery": "Galerie",
+    "reviews": "Reviews",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "menu": "Menu",
+    "close": "Sluiten"
+  },
+  "footer": {
+    "blurb": "Privé wandel- en rijtours over Shikoku. Engels en Nederlands. Geen live boeking — aanvragen per e-mail.",
+    "legal": "Juridisch",
+    "copyright": "Zelfstandig gidsen op Shikoku."
+  },
+  "toursPage": {
+    "kicker": "Privé-tours",
+    "title": "Kies een dag, geen pakket.",
+    "lead": "Elke tocht is alleen voor jouw groep. Prijzen zijn per groep, niet per persoon, tenzij anders vermeld. Ik pas de route aan op conditie, weer en wat je écht wilt zien."
+  },
+  "tourDetail": {
+    "duration": "Duur",
+    "price": "Prijs",
+    "groupSize": "Groepsgrootte",
+    "difficulty": "Niveau",
+    "includes": "Inbegrepen",
+    "excludes": "Niet inbegrepen",
+    "meetingPoint": "Verzamelpunt",
+    "inquire": "Informeer over deze tour",
+    "back": "Alle tours"
+  },
+  "aboutPage": {
+    "kicker": "De gids",
+    "title": "Sven — Shikoku, in wandeltempo.",
+    "lead": "Ik groeide op in Nederland, woon in de prefectuur Tokushima, en breng de meeste werkdagen door op bergwegen, tempelpaden en de randen van de Binnenzee.",
+    "body": [
+      "Gasten vragen vaak hoe een Nederlander op Shikoku is gaan gidsen. De korte versie: ik kwam voor een seizoen, bleef voor het eiland, en werd langzaam de persoon die vrienden vroegen om ‘gewoon even rond te leiden’. Die informele gewoonte werd dit werk.",
+      "Met gasten spreek ik Engels en Nederlands, met iedereen die we tegenkomen Japans. Dat telt meer dan het klinkt. Een wijngaardhouder, een tempelbewaarder, een vrouw die udon verkoopt langs de weg — de dag is beter als we écht kunnen praten.",
+      "Ik neem alleen privégroepen mee. Vier mensen is een mooi aantal; zes is meestal het maximum. Ik rijd, ik loop, ik neem een thermos mee. Ik heb geen callcenter of boekingsmachine. Als ik al onderweg ben met iemand, staat die datum rood op de kalender.",
+      "Als ik niet gids, ben ik meestal in de heuvels, op de markt, of ergens op een kruk met een kom noedels. Shikoku beloont mensen die iets langer blijven dan de reisplanning toestaat. Daar probeer ik dagen van te maken."
+    ]
+  },
+  "availabilityPage": {
+    "kicker": "Kalender",
+    "title": "Vrije dagen, duidelijk gemarkeerd.",
+    "lead": "Groen is beschikbaar. Rood is vol. Grijs is niet beschikbaar. Data die ik niet heb opgenomen blijven dicht. Dit is geen reserveringssysteem — als een dag vrij lijkt, stuur nog steeds een bericht zodat we kunnen bevestigen.",
+    "legendAvailable": "Beschikbaar",
+    "legendBooked": "Volgeboekt",
+    "legendUnavailable": "Niet beschikbaar",
+    "prev": "Vorige maand",
+    "next": "Volgende maand",
+    "cta": "Die data passen — informeer",
+    "note": "Ik werk deze kalender bij door een JSON-bestand in de site te wijzigen. Als iets verouderd lijkt, mail me; ik zet het recht."
+  },
+  "galleryPage": {
+    "kicker": "Foto’s",
+    "title": "Het eiland, zonder brochurenglimlach.",
+    "lead": "Dalen, kusten, ceder, en de gewone schoonheid van het landelijke Shikoku. Dit zijn de plekken waar we echt naartoe gaan.",
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1528164344705-47542687000d?auto=format&fit=crop&w=1600&q=80",
+        "alt": "Mos en steen in een tempeltuin"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1600&q=80",
+        "alt": "Vermiljoenen schrijnpoorten"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?auto=format&fit=crop&w=1600&q=80",
+        "alt": "Houten tempelarchitectuur"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=1600&q=80",
+        "alt": "Japanse straat in de schemering"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+        "alt": "Bergkam"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1432405975290-d1c025818163?auto=format&fit=crop&w=1600&q=80",
+        "alt": "Rivier door een bebost ravijn"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=80",
+        "alt": "Zon door een bladerdak"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1600&q=80",
+        "alt": "Heuvels in wisselend weer"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1600&q=80",
+        "alt": "Reiziger kijkt uit over een landschap"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=80",
+        "alt": "Zonlicht op een bergdal"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=80",
+        "alt": "Meer en bergen"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=1600&q=80",
+        "alt": "Lantaarns langs een stille straat"
+      }
+    ]
+  },
+  "reviewsPage": {
+    "kicker": "Gasten",
+    "title": "Wat mensen zeggen na de trein naar huis.",
+    "lead": "Een handvol notities van reizigers die ik heb meegenomen. Ik koop geen reviews."
+  },
+  "faqPage": {
+    "kicker": "Vragen",
+    "title": "Praktische dingen, één keer beantwoord."
+  },
+  "contactPage": {
+    "kicker": "Informeren",
+    "title": "Schrijf alsof naar een mens. Dat ben ik.",
+    "lead": "Ik lees elk bericht zelf. Vertel ongeveer wanneer je op Shikoku bent, met hoeveel jullie zijn, en wat voor dag je wilt. Ik antwoord per e-mail — meestal binnen een dag of twee.",
+    "name": "Naam",
+    "email": "E-mail",
+    "dates": "Voorkeursdata",
+    "datesPlaceholder": "bijv. 12–14 oktober 2026",
+    "people": "Aantal personen",
+    "tour": "Tour van interesse",
+    "tourPlaceholder": "Nog niet zeker",
+    "message": "Bericht",
+    "messagePlaceholder": "Wie er mee gaat, wat je wilt zien, eventuele beperkingen bij het lopen…",
+    "submit": "Verstuur aanvraag",
+    "sending": "Versturen…",
+    "successTitle": "Het is bij mij.",
+    "successBody": "Dank je. Ik antwoord op het e-mailadres dat je gaf. Hoor je binnen een paar dagen niets, kijk in spam of schrijf opnieuw.",
+    "error": "Er ging iets mis bij het versturen. Probeer het opnieuw, of mail me direct.",
+    "another": "Nog een bericht sturen"
+  },
+  "legalPage": {
+    "kicker": "Juridisch",
+    "title": "Privacy en voorwaarden",
+    "privacyTitle": "Privacy",
+    "privacy": [
+      "Deze site gebruikt geen database en geen gebruikersaccounts. Het contactformulier stuurt je naam, e-mail, data, groepsgrootte, tour van interesse en bericht per e-mail naar mij (via Resend). Ik gebruik die informatie alleen om je aanvraag te beantwoorden en een tour te regelen.",
+      "Ik verkoop je gegevens niet. Ik draai geen advertentiepixels. Analytics, als die aanstaat, is privacygerichte verkeersmeting van Vercel.",
+      "Wil je een bericht uit mijn inbox verwijderen nadat we klaar zijn, mail me en ik doe dat."
+    ],
+    "termsTitle": "Voorwaarden",
+    "terms": [
+      "Een aanvraag is geen boeking. Een datum is pas bevestigd als ik terugschrijf en we het per e-mail eens zijn.",
+      "Prijzen op tourpagina’s zijn indicatief en in Japanse yen tenzij anders vermeld. De uiteindelijke prijs hangt af van groepsgrootte, seizoen en route.",
+      "Tours kunnen worden aangepast of uitgesteld bij tyfoons, aardverschuivingen of andere veiligheidsredenen. Ik bespreek dan de opties met je.",
+      "Je bent zelf verantwoordelijk voor reisverzekering en om fit genoeg te zijn voor de dag die we plannen."
+    ]
+  }
+}

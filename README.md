@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Shikoku Walks
 
-## Getting Started
+Marketing and inquiry site for an independent Shikoku tour guide. English and Dutch. No live booking, payments, CMS, or database.
 
-First, run the development server:
+## Stack
+
+Next.js (App Router) · Tailwind CSS · Resend · Vercel Analytics
+
+## Local development
 
 ```bash
+cp .env.example .env.local
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000). Bare paths redirect to `/en` or `/nl` from `Accept-Language`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Environment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Variable | Purpose |
+| --- | --- |
+| `RESEND_API_KEY` | Sending key from [Resend](https://resend.com) |
+| `CONTACT_TO_EMAIL` | Guide inbox for inquiries |
+| `CONTACT_FROM_EMAIL` | Verified Resend from-address |
+| `NEXT_PUBLIC_SITE_URL` | Canonical URL for sitemap and Open Graph |
 
-## Learn More
+Without Resend configured, the contact form returns HTTP 503.
 
-To learn more about Next.js, take a look at the following resources:
+## Content
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Edit files in `content/` and redeploy:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `content/[en|nl]/site.json` — brand copy, nav, page chrome
+- `content/[en|nl]/tours.json` — tours (`slug` must match across locales)
+- `content/[en|nl]/faq.json`
+- `content/[en|nl]/reviews.json`
+- `content/availability.json` — `"YYYY-MM-DD": "available" | "booked" | "unavailable"`
 
-## Deploy on Vercel
+**Unlisted dates default to unavailable.** Mark both open days (`available`) and taken days (`booked`) explicitly. Grey days on the calendar are off.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deploy
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Push to GitHub and import the repo in Vercel. Set the environment variables above, including a production `NEXT_PUBLIC_SITE_URL`.
