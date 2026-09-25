@@ -5,6 +5,7 @@ import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { locales } from "@/i18n/locales";
 import { defaultOgImage, getSite, requireLocale } from "@/lib/content";
+import { siteUrl } from "@/lib/site-url";
 import "../globals.css";
 
 const display = Fraunces({
@@ -28,9 +29,8 @@ export async function generateMetadata({
 }: LayoutProps<"/[locale]">): Promise<Metadata> {
   const { locale } = await params;
   const site = getSite(requireLocale(locale));
-  const url = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
   return {
-    metadataBase: new URL(url),
+    metadataBase: new URL(siteUrl()),
     title: {
       default: `${site.brand} — ${site.tagline}`,
       template: `%s · ${site.brand}`,
