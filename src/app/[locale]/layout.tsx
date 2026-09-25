@@ -38,19 +38,13 @@ export async function generateMetadata({
     description: site.home.heroLead,
     openGraph: {
       siteName: site.brand,
-      locale: locale === "nl" ? "nl_NL" : "en_GB",
+      locale: "nl_NL",
       type: "website",
       images: [defaultOgImage],
     },
     twitter: {
       card: "summary_large_image",
       images: [defaultOgImage],
-    },
-    alternates: {
-      languages: {
-        en: "/en",
-        nl: "/nl",
-      },
     },
   };
 }

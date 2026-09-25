@@ -11,12 +11,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       entries.push({
         url: `${base}/${locale}${route}`,
         lastModified: new Date(),
-        alternates: {
-          languages: {
-            en: `${base}/en${route}`,
-            nl: `${base}/nl${route}`,
-          },
-        },
       });
     }
     for (const tour of getTours(locale)) {
@@ -24,12 +18,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       entries.push({
         url: `${base}/${locale}${path}`,
         lastModified: new Date(),
-        alternates: {
-          languages: {
-            en: `${base}/en${path}`,
-            nl: `${base}/nl${path}`,
-          },
-        },
       });
     }
   }

@@ -1,7 +1,6 @@
 import Link from "next/link";
 import type { Locale } from "@/i18n/locales";
 import type { SiteContent } from "@/lib/content";
-import { LanguageSwitch } from "@/components/LanguageSwitch";
 import { MobileMenu } from "@/components/MobileMenu";
 
 const links = [
@@ -31,10 +30,8 @@ export function Header({ locale, site }: { locale: Locale; site: SiteContent }) 
               {site.nav[key]}
             </Link>
           ))}
-          <LanguageSwitch locale={locale} />
         </nav>
-        <div className="flex items-center gap-3 lg:hidden">
-          <LanguageSwitch locale={locale} />
+        <div className="lg:hidden">
           <MobileMenu locale={locale} site={site} />
         </div>
       </div>

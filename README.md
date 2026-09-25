@@ -1,6 +1,6 @@
 # Shikoku Walks
 
-Marketing and inquiry site for an independent Shikoku tour guide. English and Dutch. No live booking, payments, CMS, or database.
+Marketing and inquiry site for an independent Shikoku tour guide. Dutch only. No live booking, payments, CMS, or database.
 
 ## Stack
 
@@ -14,7 +14,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000). Bare paths redirect to `/en` or `/nl` from `Accept-Language`.
+Open [http://localhost:3000](http://localhost:3000). Bare paths and old `/en` URLs redirect to `/nl`.
 
 ## Environment
 
@@ -31,10 +31,10 @@ Without Resend configured, the contact form returns HTTP 503.
 
 Edit files in `content/` and redeploy:
 
-- `content/[en|nl]/site.json` — brand copy, nav, page chrome
-- `content/[en|nl]/tours.json` — tours (`slug` must match across locales)
-- `content/[en|nl]/faq.json`
-- `content/[en|nl]/reviews.json`
+- `content/nl/site.json` — brand copy, nav, page chrome
+- `content/nl/tours.json` — tours
+- `content/nl/faq.json`
+- `content/nl/reviews.json`
 - `content/availability.json` — `"YYYY-MM-DD": "available" | "booked" | "unavailable"`
 
 **Unlisted dates default to unavailable.** Mark both open days (`available`) and taken days (`booked`) explicitly. Grey days on the calendar are off.

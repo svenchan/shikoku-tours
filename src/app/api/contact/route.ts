@@ -37,7 +37,7 @@ export async function POST(request: Request) {
   }
 
   const locale = str(body.locale);
-  const tours = getTours(isLocale(locale) ? locale : "en");
+  const tours = getTours(isLocale(locale) ? locale : "nl");
   const tourTitle = tours.find((t) => t.slug === tourSlug)?.title ?? (tourSlug || "Not specified");
 
   const apiKey = process.env.RESEND_API_KEY;

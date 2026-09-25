@@ -1,12 +1,8 @@
 import { isLocale, type Locale } from "@/i18n/locales";
 import { notFound } from "next/navigation";
-import enFaq from "../../content/en/faq.json";
 import nlFaq from "../../content/nl/faq.json";
-import enReviews from "../../content/en/reviews.json";
 import nlReviews from "../../content/nl/reviews.json";
-import enSite from "../../content/en/site.json";
 import nlSite from "../../content/nl/site.json";
-import enTours from "../../content/en/tours.json";
 import nlTours from "../../content/nl/tours.json";
 import rawAvailability from "../../content/availability.json";
 
@@ -26,7 +22,7 @@ export type Tour = {
 
 export type FaqItem = { question: string; answer: string };
 export type Review = { name: string; quote: string; tourSlug?: string };
-export type SiteContent = typeof enSite;
+export type SiteContent = typeof nlSite;
 export type DayStatus = "available" | "booked" | "unavailable";
 
 export function requireLocale(value: string): Locale {
@@ -34,24 +30,24 @@ export function requireLocale(value: string): Locale {
   return value;
 }
 
-export function getSite(locale: Locale): SiteContent {
-  return locale === "nl" ? nlSite : enSite;
+export function getSite(_locale: Locale): SiteContent {
+  return nlSite;
 }
 
-export function getTours(locale: Locale): Tour[] {
-  return (locale === "nl" ? nlTours : enTours) as Tour[];
+export function getTours(_locale: Locale): Tour[] {
+  return nlTours as Tour[];
 }
 
 export function getTour(locale: Locale, slug: string): Tour | undefined {
   return getTours(locale).find((tour) => tour.slug === slug);
 }
 
-export function getFaq(locale: Locale): FaqItem[] {
-  return locale === "nl" ? nlFaq : enFaq;
+export function getFaq(_locale: Locale): FaqItem[] {
+  return nlFaq;
 }
 
-export function getReviews(locale: Locale): Review[] {
-  return locale === "nl" ? nlReviews : enReviews;
+export function getReviews(_locale: Locale): Review[] {
+  return nlReviews;
 }
 
 export function getAvailability(): Record<string, DayStatus> {
