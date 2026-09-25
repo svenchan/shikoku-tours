@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { locales } from "@/i18n/locales";
-import { getTours, routes } from "@/lib/content";
+import { getPosts, getTours, routes } from "@/lib/content";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
@@ -18,6 +18,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       entries.push({
         url: `${base}/${locale}${path}`,
         lastModified: new Date(),
+      });
+    }
+    for (const post of getPosts(locale)) {
+      entries.push({
+        url: `${base}/${locale}/blog/${post.slug}`,
+        lastModified: new Date(post.date),
       });
     }
   }

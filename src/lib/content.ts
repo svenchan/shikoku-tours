@@ -1,6 +1,7 @@
 import { isLocale, type Locale } from "@/i18n/locales";
 import { notFound } from "next/navigation";
 import nlFaq from "../../content/nl/faq.json";
+import nlPosts from "../../content/nl/posts.json";
 import nlReviews from "../../content/nl/reviews.json";
 import nlSite from "../../content/nl/site.json";
 import nlTours from "../../content/nl/tours.json";
@@ -18,6 +19,23 @@ export type Tour = {
   meetingPoint: string;
   description: string;
   images: string[];
+};
+
+export type PostBlock =
+  | { type: "p"; text: string }
+  | { type: "h2"; text: string }
+  | { type: "image"; src: string; alt: string };
+
+export type Post = {
+  slug: string;
+  title: string;
+  excerpt: string;
+  date: string;
+  author: string;
+  tags: string[];
+  cover: { src: string; alt: string };
+  tourSlug?: string;
+  body: PostBlock[];
 };
 
 export type FaqItem = { question: string; answer: string };
@@ -50,6 +68,37 @@ export function getReviews(_locale: Locale): Review[] {
   return nlReviews;
 }
 
+export function getPosts(_locale: Locale): Post[] {
+  return [...(nlPosts as Post[])].sort((a, b) => b.date.localeCompare(a.date));
+}
+
+export function getPost(locale: Locale, slug: string): Post | undefined {
+  return getPosts(locale).find((post) => post.slug === slug);
+}
+
+export function readingMinutes(post: Post): number {
+  const words = post.body
+    .map((block) => (block.type === "image" ? block.alt : block.text))
+    .join(" ")
+    .split(/\s+/)
+    .filter(Boolean).length;
+  return Math.max(1, Math.round(words / 200));
+}
+
+export function formatPostDate(isoDate: string): string {
+  return new Intl.DateTimeFormat("nl-NL", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  }).format(new Date(`${isoDate}T00:00:00`));
+}
+
+export function relatedPosts(locale: Locale, post: Post, limit = 3): Post[] {
+  return getPosts(locale)
+    .filter((item) => item.slug !== post.slug && item.tags.some((tag) => post.tags.includes(tag)))
+    .slice(0, limit);
+}
+
 export function getAvailability(): Record<string, DayStatus> {
   const map: Record<string, DayStatus> = {};
   for (const [key, value] of Object.entries(rawAvailability)) {
@@ -70,13 +119,10 @@ export const routes = [
   "",
   "/tours",
   "/about",
-  "/gallery",
+  "/blog",
   "/reviews",
   "/faq",
   "/contact",
   "/legal",
 ] as const;
 
-export function getGallery(locale: Locale): { src: string; alt: string }[] {
-  return getSite(locale).galleryPage.images;
-}

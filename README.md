@@ -35,6 +35,7 @@ Edit files in `content/` and redeploy:
 - `content/nl/tours.json` — tours
 - `content/nl/faq.json`
 - `content/nl/reviews.json`
+- `content/nl/posts.json` — blog posts
 
 The availability calendar is not public. Its page lives in `src/app/[locale]/_availability/` and `content/availability.json` is unused until that route is restored. Requests to `/availability` redirect to the contact form.
 

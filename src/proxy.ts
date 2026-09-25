@@ -20,6 +20,15 @@ export function proxy(request: NextRequest) {
     return NextResponse.redirect(request.nextUrl);
   }
 
+  const gallery = locales.some(
+    (locale) => pathname === `/${locale}/gallery` || pathname.startsWith(`/${locale}/gallery/`),
+  );
+  if (gallery || pathname === "/gallery" || pathname.startsWith("/gallery/")) {
+    const locale = locales.find((item) => pathname.startsWith(`/${item}/`)) ?? defaultLocale;
+    request.nextUrl.pathname = `/${locale}/blog`;
+    return NextResponse.redirect(request.nextUrl);
+  }
+
   const pathnameHasLocale = locales.some(
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`,
   );
