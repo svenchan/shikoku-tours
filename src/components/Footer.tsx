@@ -12,7 +12,6 @@ export function Footer({ locale, site }: { locale: Locale; site: SiteContent }) 
         </div>
         <div className="flex flex-col gap-2 text-sm">
           <Link href={`/${locale}/tours`} className="hover:text-stone">{site.nav.tours}</Link>
-          <Link href={`/${locale}/availability`} className="hover:text-stone">{site.nav.availability}</Link>
           <Link href={`/${locale}/contact`} className="hover:text-stone">{site.nav.contact}</Link>
           <Link href={`/${locale}/legal`} className="hover:text-stone">{site.footer.legal}</Link>
         </div>

@@ -54,7 +54,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Link
-                href={`/${locale}/availability`}
+                href={`/${locale}/contact`}
                 className="inline-flex min-h-12 items-center justify-center rounded-full bg-accent px-6 text-sm font-medium tracking-wide text-paper uppercase hover:bg-accent-dark"
               >
                 {site.home.heroPrimary}
@@ -88,27 +88,6 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
               <TourCard key={tour.slug} tour={tour} locale={locale} cta={site.home.featuredCta} />
             ))}
           </div>
-        </div>
-      </section>
-
-      <section className="relative min-h-[28rem] overflow-hidden">
-        <Image
-          src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=2000&q=80"
-          alt="Forest path"
-          fill
-          sizes="100vw"
-          className="object-cover"
-        />
-        <div className="absolute inset-0 bg-forest/70" />
-        <div className="relative mx-auto max-w-3xl px-5 py-24 text-paper sm:px-8">
-          <h2 className="font-display text-3xl sm:text-4xl">{site.home.availabilityTitle}</h2>
-          <p className="mt-5 text-lg leading-relaxed text-paper/85">{site.home.availabilityBody}</p>
-          <Link
-            href={`/${locale}/availability`}
-            className="mt-8 inline-flex min-h-12 items-center rounded-full bg-paper px-6 text-sm font-medium tracking-wide text-forest uppercase"
-          >
-            {site.home.availabilityCta}
-          </Link>
         </div>
       </section>
 

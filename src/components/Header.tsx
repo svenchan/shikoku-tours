@@ -6,7 +6,6 @@ import { MobileMenu } from "@/components/MobileMenu";
 const links = [
   ["tours", "tours"],
   ["about", "about"],
-  ["availability", "availability"],
   ["gallery", "gallery"],
   ["reviews", "reviews"],
   ["faq", "faq"],

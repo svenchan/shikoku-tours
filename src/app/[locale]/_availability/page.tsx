@@ -6,7 +6,9 @@ import { getAvailability, getSite, requireLocale } from "@/lib/content";
 
 export async function generateMetadata({
   params,
-}: PageProps<"/[locale]/availability">): Promise<Metadata> {
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
   const { locale } = await params;
   const site = getSite(requireLocale(locale));
   return { title: site.availabilityPage.title, description: site.availabilityPage.lead };
@@ -14,7 +16,9 @@ export async function generateMetadata({
 
 export default async function AvailabilityPage({
   params,
-}: PageProps<"/[locale]/availability">) {
+}: {
+  params: Promise<{ locale: string }>;
+}) {
   const { locale: raw } = await params;
   const locale = requireLocale(raw);
   const site = getSite(locale);

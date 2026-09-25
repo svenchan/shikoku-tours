@@ -35,9 +35,8 @@ Edit files in `content/` and redeploy:
 - `content/nl/tours.json` — tours
 - `content/nl/faq.json`
 - `content/nl/reviews.json`
-- `content/availability.json` — `"YYYY-MM-DD": "available" | "booked" | "unavailable"`
 
-**Unlisted dates default to unavailable.** Mark both open days (`available`) and taken days (`booked`) explicitly. Grey days on the calendar are off.
+The availability calendar is not public. Its page lives in `src/app/[locale]/_availability/` and `content/availability.json` is unused until that route is restored. Requests to `/availability` redirect to the contact form.
 
 ## Deploy
 

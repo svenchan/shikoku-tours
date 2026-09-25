@@ -11,6 +11,15 @@ export function proxy(request: NextRequest) {
     return NextResponse.redirect(request.nextUrl);
   }
 
+  const availability = locales.some(
+    (locale) => pathname === `/${locale}/availability` || pathname.startsWith(`/${locale}/availability/`),
+  );
+  if (availability || pathname === "/availability" || pathname.startsWith("/availability/")) {
+    const locale = locales.find((item) => pathname.startsWith(`/${item}/`)) ?? defaultLocale;
+    request.nextUrl.pathname = `/${locale}/contact`;
+    return NextResponse.redirect(request.nextUrl);
+  }
+
   const pathnameHasLocale = locales.some(
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`,
   );

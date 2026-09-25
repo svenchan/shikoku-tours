@@ -70,7 +70,6 @@ export const routes = [
   "",
   "/tours",
   "/about",
-  "/availability",
   "/gallery",
   "/reviews",
   "/faq",

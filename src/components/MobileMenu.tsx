@@ -8,7 +8,6 @@ import type { SiteContent } from "@/lib/content";
 const links = [
   ["tours", "tours"],
   ["about", "about"],
-  ["availability", "availability"],
   ["gallery", "gallery"],
   ["reviews", "reviews"],
   ["faq", "faq"],
